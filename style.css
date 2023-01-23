@@ -1,3 +1,4 @@
+
 .navbar{
     background-color: black;
     width: 100%;
@@ -5,7 +6,7 @@
     min-height: 50px;
     padding: 0;
     margin: 0;
-    color: #eee;
+    color: #eee
 }
 li {
     font-size: 20px;
@@ -34,3 +35,16 @@ a{
 #search{
     height: 20px;
 }
+footer{
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:auto;
+}
+#container22{
+    height: 1800px;
+    width: 100%;
+}
+
+
