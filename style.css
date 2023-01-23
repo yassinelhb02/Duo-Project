@@ -35,7 +35,8 @@ a{
 #search{
     height: 20px;
 }
-footer{
+
+/* footer{
     position:relative;
     bottom: 0;
     left: 0;
@@ -45,18 +46,18 @@ footer{
 #container22{
     height: 1800px;
     width: 100%;
-}
+} */
 
 
 
 
 .grid-product{
-    width: 28%;
+    width: 80%;
     height: 500px;
     background-color: black;
-    float: left;
+    /* float: left; */
     margin-top: 50px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-bottom: 50px;
 }
 
@@ -70,3 +71,8 @@ footer{
 
 }
 
+#Container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+}
