@@ -15,7 +15,6 @@ li {
     padding-right: 50px;
     list-style: none;
     display: inline-block;
-    position: inherit;
    
 
 }
@@ -34,21 +33,16 @@ a{
 }
 #search{
     height: 20px;
+
+
 }
 footer{
-    position:relative;
+    position:absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    height:auto;
+    height: auto;
 }
-#container22{
-    height: 1800px;
-    width: 100%;
-}
-
-
-
 
 .grid-product{
     width: 28%;
@@ -66,7 +60,5 @@ footer{
     height: 60%;
     margin-top: 5px;
     margin-left: 5px;
-    
-
 }
 
