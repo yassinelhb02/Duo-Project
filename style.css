@@ -36,21 +36,37 @@ a{
 
 
 }
+<<<<<<< HEAD
 footer{
     position:absolute;
+=======
+
+/* footer{
+    position:relative;
+>>>>>>> 0814286f078cf43a40b94bd2c9fd6b4b6c352b22
     bottom: 0;
     left: 0;
     right: 0;
     height: auto;
 }
+<<<<<<< HEAD
+=======
+#container22{
+    height: 1800px;
+    width: 100%;
+} */
+
+
+
+>>>>>>> 0814286f078cf43a40b94bd2c9fd6b4b6c352b22
 
 .grid-product{
-    width: 28%;
+    width: 80%;
     height: 500px;
     background-color: black;
-    float: left;
+    /* float: left; */
     margin-top: 50px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-bottom: 50px;
 }
 
@@ -62,3 +78,8 @@ footer{
     margin-left: 5px;
 }
 
+#Container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+}
