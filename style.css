@@ -34,3 +34,23 @@ a{
 #search{
     height: 20px;
 }
+
+.grid-product{
+    width: 28%;
+    height: 500px;
+    background-color: black;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.img-product{
+    background-color: #ddd;
+    width: 50%;
+    height: 60%;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+
+}
